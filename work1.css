@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 0.5rem;
+} 
+::-webkit-scrollbar-track{
+    background: transparent;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#ecb502, #ff7b00);
+    border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient( #ff7b00,#ecb502);
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(./img/jungal.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    border-bottom: #ff9500 solid 0.5rem;
+}
+
+
+:root {
+    --green: #073647;
+    --yally: #ecb502;
+    --blueblack: #0d1c2b;
+    --greay: #0c0a0d;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 5%;
+    background-color: var(--green);
+}
+
+.logo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #ecb502;
+    text-transform: capitalize;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.link {
+    padding: 0 20px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: capitalize;
+}
+
+.but {
+    display: flex;
+    gap: 1rem;
+}
+
+.but button {
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    color: whitesmoke;
+    background: linear-gradient(#ecb502, #ff9500);
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.05s ease-in-out;
+    border: 3px dashed transparent;
+
+}
+
+.but button:hover {
+    background: transparent;
+    border: #ff9500 dashed 3px;
+}
+
+.headmain {
+    justify-content: space-between;
+    display: flex;
+    margin: 7% 5% 1.3rem;
+}
+
+.tit {
+    width: 40vw;
+    margin: 10% 1% 1.3rem;
+
+}
+
+.tit h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #ecb502;
+    margin: 1rem 0;
+}
+
+.tit p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.butt {
+    margin-left: 3rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.tit button {
+    margin: 2rem 0;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    color: whitesmoke;
+    background: linear-gradient(#ecb502, #ff9500);
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.2s ease-in-out;
+    border: 3px dashed transparent;
+}
+
+.butt button:hover {
+    background: #073647;
+}
+
+
+.log {
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: rgba(7, 54, 71, 0.20);
+    backdrop-filter: blur(20px);
+    border: 1px solid #ff950056;
+
+}
+
+.login h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid #ff9500;
+    outline: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 227);
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.pass input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid #ff9500;
+    outline: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 227);
+    width: 60%;
+}
+
+.butn button {
+
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    color: whitesmoke;
+    background: linear-gradient(#ecb502, #ff9500);
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.2s ease-in-out;
+    border: 3px dashed transparent;
+    width: 100%;
+    margin-top: 3rem;
+}
+main{
+    margin-top: 1rem;
+}
+
+.dinocard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+}
+.bg{
+    width: 22vw;
+    height: 19vw;
+    background: url(./img/animal-nature-multi-colored-lizard-leaf-generative-ai.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:flex-end;
+    border-radius: 10px 10px 0 0;
+    justify-content: right;
+    box-shadow:0 0.5rem 1rem rgba(0,0,0,0.9);
+}
+.bg1{
+    width: 22vw;
+    height: 19vw;
+    background: url(./img/eye-mythological-dragon-fire-generative-ai.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:flex-end;
+    justify-content: right;
+    border-radius: 10px 10px 0 0;
+    box-shadow:0 0.5rem 1rem rgba(0,0,0,0.9);
+    
+}
+.bg2{
+    box-shadow:0 0.5rem 1rem rgba(0,0,0,0.9);
+    width: 22vw;
+    height: 19vw;
+    background: url(./img/animal-spooky-yellow-eyes-hold-human-awe-generated-by-ai.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:flex-end;
+    justify-content: right;
+    border-radius: 10px 10px 0 0;
+    
+}
+.card{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    background: #0d1c2b;
+border-radius: 10px;
+}
+.card h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: #ecb502;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+.cardin a{
+    text-decoration: none;
+    color: #fff5d3;
+    background: #0c0a0d;
+    float: right;
+    padding: 5px;
+    border-radius: 7px 0 0 0 ;
+}
+.cardin p{
+    background: #ffffff;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #073647;
+    padding: 0.5rem 0;
+    border-radius: 0 0 10px 10px;
+}
+.text{
+    text-align: left;
+    text-transform: capitalize;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #ecb502;
+    background: #0d1c2b;
+    display:inline-block;
+    width: 50%;
+    margin: 1rem 1rem 2rem 0;
+    padding: 5px 1rem 5px 8rem;
+    border-radius: 0 8rem 8rem 0;
+    letter-spacing: 2px;
+}
+.exam{
+    background-color: #ecb502;
+    margin: 2rem 3rem;
+    border-radius: 15px;
+    padding: 2rem 0 5rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+}
+.text p{
+    color: #fff5d3;
+    font-size: 1rem;
+    letter-spacing: 0px;
+}
+.pho img{
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow:0 0.5rem 1rem rgba(0,0,0,0.9);
+}
+.more{
+    width: 40vw;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow:0 0.5rem 1rem rgba(0,0,0,0.9);
+}
+
+.more p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: left;
+}
+.roww{
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-evenly ;
+    margin: 1.5rem 0;
+}
+.num h3{
+    font-family:cursive;
+    font-weight: 900;
+    font-size: 1.6rem;
+    text-transform: lowercase;
+}
+.num p{
+    font-family:cursive;
+    font-weight: 900;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color:#073647;
+}
+footer{
+    height: 40vh;
+    width: 100%;
+    background: url(./img/4662435_2422142.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con{
+    width: 50%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    background-color: #002330aa;
+    border-radius: 1rem;
+}
+.icon img{
+    width: 3vw;
+  margin: 0.4rem;
+  filter: blur(2px);
+}
+
+.icon img:hover{
+    filter: blur(0);
+    transition: 0.1s ease;
+    
+}
+.t a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: #f9ecff;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.1s ease;
+
+}
+.t a:hover{
+zoom: 1.1;
+color: #ecb502;
+
+}
